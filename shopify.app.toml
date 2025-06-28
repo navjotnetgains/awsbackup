@@ -3,7 +3,7 @@
 client_id = "b9062da6ec6ab82e891f3530cf278795"
 name = "international-business-app"
 handle = "international-business-app-17"
-application_url = "https://accompanied-orange-finals-dicke.trycloudflare.com"
+application_url = "https://remember-eat-kitty-additionally.trycloudflare.com"
 embedded = true
 
 [build]
@@ -23,10 +23,10 @@ api_version = "2025-04"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products,read_products,write_files,read_files"
 
 [auth]
-redirect_urls = ["https://accompanied-orange-finals-dicke.trycloudflare.com/auth/callback", "https://accompanied-orange-finals-dicke.trycloudflare.com/auth/shopify/callback", "https://accompanied-orange-finals-dicke.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://remember-eat-kitty-additionally.trycloudflare.com/auth/callback", "https://remember-eat-kitty-additionally.trycloudflare.com/auth/shopify/callback", "https://remember-eat-kitty-additionally.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false

@@ -3,15 +3,11 @@ import db from '../db.server'
 
 export async function loader() {
 
-
-
     return json({
         ok:true,
         message:'hlo this is your data'
     })
-
 }
-
 
 export async function action({request}) {
     const method= request.method;
